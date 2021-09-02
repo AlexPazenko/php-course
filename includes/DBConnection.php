@@ -49,12 +49,6 @@ class DBConnection
                     " . $tableName . "
                 ORDER BY
                     " . $sortingType . " ASC ";
-/*        $query = "SELECT
-                    title, content, createdAt
-                FROM
-                    " . $tableName . "
-                ORDER BY
-                    title ASC ";*/
 
         $stmt = $this->conn->prepare($query);
         $stmt->execute();

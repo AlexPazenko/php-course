@@ -4,11 +4,6 @@ class Database
 {
 
 //Params to connect to database
-/*$dbHost = "localhost";
-$dbUser = "alex";
-$dbPass = "789555";
-$dbName = "php_course";*/
-
     private $host = "localhost";
     private $db_name = "php_course";
     private $username = "alex";
@@ -29,13 +24,6 @@ $dbName = "php_course";*/
 
         return $this->conn;
     }
-
-
-/*$conn = mysqli_connect($dbHost, $dbUser, $dbPass, $dbName);
-
-if(!$conn) {
-    die("Database connection failed");
-}*/
 
 }
 ?>
